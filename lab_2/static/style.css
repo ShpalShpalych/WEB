@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Gowun_Batang';
+    src: url('fonts/Gowun_Batang/GowunBatang-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Playfair_Display';
+    src: url('fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');,
+
+}
+@font-face {
+    font-family: 'Sofadi_One';
+    src:
+    url('fonts/Sofadi_One/SofadiOne-Regular.ttf') format('truetype');
+}
+
+ul{
+     list-style-type: none;
+ }
+
+ a {
+     color:black;
+     text-decoration: none;
+ }
+
+ .image {
+     border-radius: 15px;
+     height: 500px;
+     width: 470px;
+     object-fit: cover;
+ }
+
+ body{
+     background-color:peachpuff;
+ }
+ .container{
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+
+.par1 {
+    text-align:right;
+    font-family: 'Gowun_Batang', sans-serif;
+}
+ .par2 {
+     text-align:center;
+     font-family: 'Playfair_Display', sans-serif;
+}
+ .par3 {
+    font-weight: bold;
+     font-family: 'Sofadi_One', sans-serif;
+}
